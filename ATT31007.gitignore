@@ -1,0 +1,17 @@
+#Ignore data directories by default 
+#Comment lines if you want to version data files but only for small files
+InputData/*
+IntermediateData/*
+OutputFiles/*
+
+
+#Ignore RStudio Files
+.Rproj.user
+.Rhistory
+.RData
+
+#Ignore emacs backup files
+*~
+#*
+.#*
+
